@@ -1,0 +1,11 @@
+CC=mipsel-linux-gnu-gcc
+
+encryptor: main.c crypt.o
+	$(CC) -O3 -std=c99 -o $@ $^
+
+crypt.o: crypt.c crypt.h
+	$(CC) -O3 -std=c99 -c $<
+
+clean:
+	rm -f crypt.o
+	rm -f encryptor
