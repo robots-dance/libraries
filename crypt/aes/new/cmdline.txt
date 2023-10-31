@@ -1,0 +1,5 @@
+test.bin test.bin.enc e5adcf143ae4195bcdfa3be9c6185860 cdb11991ebf7821800d16461550e9f53 ecb -enc
+en qwerty 128 ~/Files/_Temp/crypt-test/11.avi ~/Files/_Temp/crypt-test/11.avi.enc
+
+old encryptor ~ 17 Mb/s
+new encryptor ~ 40 Mb/s
